@@ -1,0 +1,200 @@
+/* main styles */
+* {margin:0;padding:0;-webkit-box-sizing:border-box;box-sizing:border-box;outline:0}
+
+html, body {
+	width:100%;
+	min-height:100%;
+	min-width:320px;
+	font-family:"Open Sans",sans-serif;
+	-webkit-text-size-adjust:100%;
+	font-weight:100;
+	color:#000000;
+	font-size: 16px;
+	line-height: 24px;
+	text-align:left;
+}
+
+.section {padding: 100px 40px;}
+.content {max-width:1000px; margin: 0 auto;}
+.burgundy {color: #6C1D45;}
+.green {color: #00B2A9;}
+
+h1 {
+	font-size: 35px;
+	line-height: 45px;
+	margin-bottom: 40px;
+}
+h2 {
+	font-size: 30px;
+	line-height: 40px;
+	margin-bottom: 40px;
+	text-align:center;
+}
+h3 {
+	font-size: 20px;
+	line-height: 30px;
+	margin-bottom: 20px;
+}
+p {margin-bottom: 20px;}
+a {
+	color: #6C1D45; 
+	text-decoration:none;
+	font-weight: bold;
+}
+a:hover {color: #C8102E;}
+
+/* menu */
+.section#menu {padding:10px 40px;}
+.nav {
+	display: flex;
+	align-items: stretch;
+	justify-content: center;
+}
+.nav ul {list-style-type: none;}
+.nav li.li {
+	font-size: 16px;
+	line-height: 30px;
+	display:inline-block;
+	padding-right: 20px;
+	font-weight: bold;
+
+}
+
+/* about */
+#about {
+	background-color: #00B2A9;
+	color:#ffffff;
+}
+.aboutMe {display: block;}
+.aboutMe img {
+	width:100%;
+	max-width: 350px;
+	border: 1px solid #C8102E;
+	margin-right: 40px;
+}
+
+
+/* skills */
+#skills {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#00b2a9+0,6c1d45+100 */
+	background: #ffffff; /* Old browsers */
+/*	background: -moz-linear-gradient(top, #00b2a9 0%, #6c1d45 100%); */ /* FF3.6-15 */
+/*	background: -webkit-linear-gradient(top, #00b2a9 0%,#6c1d45 100%); *//* Chrome10-25,Safari5.1-6 */
+/*	background: linear-gradient(to bottom, #00b2a9 0%,#6c1d45 100%); *//* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+/*	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00b2a9', endColorstr='#6c1d45',GradientType=0 );*/ /* IE6-9 */
+}
+.skillSet {display: block;}
+.skillItem {
+	width: 100%;
+	border: 3px dotted #6C1D45;
+	padding: 20px;
+	margin:0 auto;
+	margin-bottom: 40px;
+	background-color: #ffffff;
+}
+.skillItem h3, .skillItem p {text-align:center;}
+.skillList {list-style-type: none;}
+.skillList li {margin-bottom:20px;}
+.skillList li:before{
+	content: '\1F4CC';
+	color: #6C1D45;
+}
+
+/*projects */
+#projects {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#6c1d45+0,00b2a9+100 */
+	background: #00B2A9; /* Old browsers */
+	/*background: -moz-linear-gradient(top, #6c1d45 0%, #00b2a9 100%);*/ /* FF3.6-15 */
+	/*background: -webkit-linear-gradient(top, #6c1d45 0%,#00b2a9 100%);*/ /* Chrome10-25,Safari5.1-6 */
+	/*background: linear-gradient(to bottom, #6c1d45 0%,#00b2a9 100%);*/ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6c1d45', endColorstr='#00b2a9',GradientType=0 );*/ /* IE6-9 */
+
+}
+#projects h2 {color:#ffffff;}
+.LandingProjects, .emailProjects{display:block;}
+.projItem{
+	width: 100%;
+	margin:0 auto;
+	margin-bottom: 40px;
+	background-color: #ffffff;
+	padding: 20px;
+	-moz-box-shadow:5px 5px 7px rgba(33,33,33,1);
+    -webkit-box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+    box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+    -moz-transition:-moz-transform .15s linear;
+    -o-transition:-o-transform .15s linear;
+    -webkit-transition:-webkit-transform .15s linear;
+     -webkit-transform: rotate(3deg);
+    -o-transform: rotate(3deg);
+    -moz-transform:rotate(3deg);
+ }
+ /* animation css */
+.projItem:nth-child(even){
+  -o-transform:rotate(-6deg);
+  -webkit-transform:rotate(-6deg);
+  -moz-transform:rotate(-6deg);
+  position:relative;
+  top:-5px;
+}
+.projItem:nth-child(3n){
+  -o-transform:rotate(2deg);
+  -webkit-transform:rotate(2deg);
+  -moz-transform:rotate(2deg);
+  position:relative;
+  top:-5px;
+}
+.projItem:hover, .projItem:focus{
+  box-shadow:10px 10px 7px rgba(0,0,0,.7);
+  -moz-box-shadow:10px 10px 7px rgba(0,0,0,.7);
+  -webkit-box-shadow: 10px 10px 7px rgba(0,0,0,.7);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  position:relative;
+  z-index:5;
+}
+
+#contact {
+	background-color: #ffffff;
+	text-align:center;
+}
+.links {
+	display: flex;
+	align-items: stretch;
+	justify-content: center;
+	margin-top:20px;
+}
+.links a:first-child {margin-right: 40px;}
+
+.section#footer {
+	padding: 20px 40px;
+	background-color: #6C1D45;
+	color:#ffffff;
+	font-size:12px;
+	line-height: 18px;
+}
+#footer p {margin-bottom:0;}
+
+
+@media (min-width: 768px) {
+	.aboutMe {
+		display: flex;
+		align-items: stretch;
+		justify-content: space-between;
+	}
+	.skillSet {
+		display: flex;
+		align-items: stretch;
+		justify-content: space-between;
+	}
+	.skillItem, .projItem {max-width: 300px;}
+	.LandingProjects, .emailProjects{
+		display: flex;
+		align-items: stretch;
+		justify-content: space-between;
+	}
+}
+
+@media (min-width: 1024px) {
+	.skillItem, .projItem {max-width: 320px;}
+}
