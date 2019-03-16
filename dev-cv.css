@@ -69,8 +69,8 @@ a:hover {color: #C8102E;}
 .aboutMe img {
 	width:100%;
 	max-width: 350px;
-	border: 1px solid #C8102E;
-	margin-right: 40px;
+	padding-right: 40px;
+	padding-top:8px;
 }
 
 
