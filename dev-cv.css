@@ -65,12 +65,13 @@ a:hover {color: #C8102E;}
 	background-color: #00B2A9;
 	color:#ffffff;
 }
-.aboutMe {
+.aboutMe {display: block;}
+.image {
 	display: block; 
 	max-width:340px;
 	width:100%;
 }
-.aboutMe img {
+.image img {
 	width:100%;
 	max-width: 300px;
 	padding-top:8px;
