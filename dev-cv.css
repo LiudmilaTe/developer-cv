@@ -98,7 +98,10 @@ a:hover {color: #C8102E;}
 }
 .skillItem h3, .skillItem p {text-align:center;}
 .skillList {list-style-type: none;}
-.skillList li {margin-bottom:20px;}
+.skillList li {
+	display: flex;
+	margin-bottom:20px;
+}
 .skillList li:before{
 	content: '\1F4CC';
 	color: #6C1D45;
