@@ -160,7 +160,7 @@ a:hover {color: #C8102E;}
   position:relative;
   z-index:5;
 }
-
+.projItem img {max-height: 200px; width:auto;}
 #contact {
 	background-color: #ffffff;
 	text-align:center;
