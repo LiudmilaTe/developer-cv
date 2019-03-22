@@ -43,9 +43,7 @@ a {
 }
 a:hover {color: #C8102E;}
 
-.icon {fill: #6C1D45;}
-.icon:hover {fill: #00B2A9;}
-.socialLink {
+a.socialLink {
 	display: block;
 	z-index:1;
 }
