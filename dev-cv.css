@@ -43,8 +43,12 @@ a {
 }
 a:hover {color: #C8102E;}
 
-svg.icon {fill: #6C1D45;}
-svg.icon:hover {fill: #00B2A9;}
+.icon {fill: #6C1D45;}
+.icon:hover {fill: #00B2A9;}
+.socialLink {
+	display: block;
+	z-index:1;
+}
 /* menu */
 .section#menu {padding:10px 40px;}
 .nav {
