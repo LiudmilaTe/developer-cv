@@ -69,6 +69,10 @@ a.socialLink {
 	text-align:center;
 }
 .head p {font-size:22px;}
+#header .content {
+	display: flex;
+	justify-content: center;
+}
 /* about */
 .aboutMe {display: block;}
 .aboutMe h2 {text-align:left;}
