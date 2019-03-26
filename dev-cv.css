@@ -203,7 +203,7 @@ a.socialLink {
 /* animation styles */
 
 .view {
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
   right: 0;
@@ -213,8 +213,8 @@ a.socialLink {
 }
 
 .plane {
-  width: 120px;
-  height: 120px;
+  width: 150px;
+  height: 150px;
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
 }
@@ -231,8 +231,8 @@ a.socialLink {
           animation: rotate 20s infinite linear;
 }
 .plane.main .circle {
-  width: 120px;
-  height: 120px;
+  width: 150px;
+  height: 150px;
   position: absolute;
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
