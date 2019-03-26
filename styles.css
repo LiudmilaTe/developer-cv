@@ -9,8 +9,8 @@ html, body {
 	-webkit-text-size-adjust:auto;
 	font-weight:400;
 	color:#000000;
-	font-size: 16px;
-	line-height: 24px;
+	font-size: 20px;
+	line-height: 1.5em;
 	text-align:left;
 }
 
@@ -23,19 +23,16 @@ html, body {
 .grey {background-color: #dedede;}
 
 h1 {
-	font-size: 40px;
-	line-height: 50px;
-	margin-bottom: 40px;
+	font-size: 50px;
+	margin-bottom: 20px;
 }
 h2 {
-	font-size: 30px;
-	line-height: 40px;
-	margin-bottom: 40px;
+	font-size: 40px;
+	margin-bottom: 20px;
 	text-align:center;
 }
 h3 {
-	font-size: 20px;
-	line-height: 30px;
+	font-size: 30px;
 	margin-bottom: 20px;
 }
 p {margin-bottom: 20px;}
@@ -46,21 +43,17 @@ a {
 }
 a:hover {color: #009BFF;}
 
-a.socialLink {
-	display: block;
-	z-index:1;
-}
 /* menu */
 .section#menu {padding:10px 40px;}
 .nav {
 	display: flex;
 	align-items: stretch;
-	justify-content: center;
+	justify-content: right;
 }
 .nav ul {list-style-type: none;}
 .nav li.li {
 	font-size: 16px;
-	line-height: 30px;
+	line-height: 1.5em;
 	display:inline-block;
 	padding-right: 14px;
 	font-weight: bold;
@@ -89,7 +82,6 @@ a.socialLink {
 	max-width: 300px;
 	padding-top:8px;
 }
-
 
 /* skills */
 #skills {background: #ffffff;}
@@ -181,7 +173,10 @@ a.socialLink {
 
 
 @media (min-width: 768px) {
-	.nav li.li {padding-right: 25px;}
+	.nav li.li {
+		padding-right: 25px;
+		font-size: 20px;
+	}
 	.aboutMe {
 		display: flex;
 		align-items: stretch;
