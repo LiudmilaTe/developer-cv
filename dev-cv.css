@@ -93,9 +93,11 @@ a.socialLink {
 	background-color: #ffffff;
 }
 .skillItem h3, .skillItem p {text-align:center;}
-.skillList {list-style-type: none;}
-.skillList li {display: flex; margin-bottom:20px;}
+.skillList {list-style-type: none; list-style-position: inside;}
+.skillList li {margin-bottom:20px;}
 .emails .skillList { list-style-image: url('images/email-code-icon.svg');}
+.development .skillList { list-style-image: url('images/dev-icon.svg');}
+.soft .skillList { list-style-image: url('images/soft-skill-icon.svg');}
 
 /*projects */
 #projects {
