@@ -86,11 +86,11 @@ a.socialLink {
 .skillSet {display: block;}
 .skillItem {
 	width: 100%;
-	border: 3px dotted #6C1D45;
 	padding: 20px;
 	margin:0 auto;
 	margin-bottom: 40px;
 	background-color: #ffffff;
+	box-shadow: 1px 1px 7px #6c1d45;
 }
 .skillItem h3, .skillItem p {text-align:center;}
 .skillList {list-style-type: none; list-style-position: inside;}
