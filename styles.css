@@ -64,7 +64,7 @@ a:hover {color: #009BFF;}
 	color:#ffffff;
 	text-align:center;
 }
-.head p {font-size:22px;}
+.head p {font-size:22px; margin:0;}
 #header .content {
 	display: flex;
 	justify-content: center;
@@ -76,13 +76,8 @@ a:hover {color: #009BFF;}
 	display: block; 
 	width:100%;
 	max-width:340px;
-	margin-right: 40px;
 }
-.image img {
-	width:100%;
-	max-width: 300px;
-	padding-top:8px;
-}
+.image img {width:100%; max-width: 300px; margin-bottom: 40px;}
 
 /* skills */
 #skills {background: #ffffff;}
@@ -105,7 +100,7 @@ a:hover {color: #009BFF;}
 /*projects */
 #projects {background: #004E7F;}
 #projects h2 {color:#ffffff;}
-.LandingProjects, .emailProjects{display:block;}
+.LandingProjects, .emailProjects {display:block;}
 .projItem{
 	width: 100%;
 	margin:0 auto;
@@ -150,10 +145,7 @@ a:hover {color: #009BFF;}
 }
 .projItem img {max-height: 200px; width:auto;}
 
-#contact {
-	background-color: #ffffff;
-	text-align:center;
-}
+#contact {background-color: #ffffff; text-align:center;}
 .links {
 	display: flex;
 	align-items: stretch;
