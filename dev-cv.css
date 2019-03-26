@@ -20,8 +20,8 @@ html, body {
 .green {color: #00B2A9;}
 
 h1 {
-	font-size: 35px;
-	line-height: 45px;
+	font-size: 40px;
+	line-height: 50px;
 	margin-bottom: 40px;
 }
 h2 {
@@ -62,13 +62,16 @@ a.socialLink {
 	padding-right: 14px;
 	font-weight: bold;
 }
-
-/* about */
-#about {
+/* header */
+#header {
 	background-color: #00B2A9;
 	color:#ffffff;
+	text-align:center;
 }
+.head p {font-size:22px;}
+/* about */
 .aboutMe {display: block;}
+.aboutMe h2 {text-align:left;}
 .image {
 	display: block; 
 	max-width:340px;
