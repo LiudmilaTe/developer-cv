@@ -182,6 +182,7 @@ a:hover {color: #009BFF;}
 		align-items: stretch;
 		justify-content: space-between;
 	}
+	.image img {margin-right: 40px;}
 	.skillSet {
 		display: flex;
 		align-items: stretch;
