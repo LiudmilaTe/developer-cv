@@ -89,10 +89,11 @@ a:hover {color: #009BFF;}
 	margin:0;
 	margin-bottom: 40px;
 	background-color: #ffffff;
-	box-shadow: 1px 1px 7px #004E7F;
+	box-shadow: 1px 3px 30px #004E7F;
 }
+
 /* .skillItem h3, .skillItem p {text-align:center;} */
-.skillList {list-style-type: lower-roman; list-style-position: inside;}
+.skillList {list-style-type: circle; list-style-position: inside;}
 .skillList li {margin-bottom:20px;}
 /* .emails::before { content: url('images/email-code-icon.svg');}
 .development::before { content: url('images/dev-icon.svg');}
