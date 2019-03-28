@@ -12,6 +12,7 @@ html, body {
 	font-size: 20px;
 	line-height: 1.5em;
 	text-align:left;
+	background:#ffffff;
 }
 
 .section {padding: 100px 40px;}
@@ -82,7 +83,7 @@ ul {list-style-type: circle; list-style-position: inside; margin-bottom:20px;}
 .image img {width:100%; max-width: 300px;}
 
 /* skills */
-#skills {background: #ffffff;}
+.section#skills {padding-top: 50px;}
 .skillSet {display: block;}
 .skillItem {
 	width: 100%;
