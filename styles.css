@@ -161,6 +161,11 @@ ul {list-style-type: circle; list-style-position: inside; margin-bottom:20px;}
 #footer p {margin-bottom:0;}
 
 
+/* about page */
+.image-block {text-align:center;}
+.image-block img {margin-bottom: 20px;}
+
+
 @media (min-width: 768px) {
 	.nav li.li {
 		padding-right: 25px;
@@ -174,6 +179,13 @@ ul {list-style-type: circle; list-style-position: inside; margin-bottom:20px;}
 	.image {margin-right: 40px;}
 	.projItem {max-width: calc(33% - 20px);}
 	.LandingProjects, .emailProjects{
+		display: flex;
+		align-items: stretch;
+		justify-content: space-between;
+	}
+	
+	/* about page */
+	.image-block {
 		display: flex;
 		align-items: stretch;
 		justify-content: space-between;
