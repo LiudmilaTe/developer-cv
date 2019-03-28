@@ -83,7 +83,7 @@ ul {list-style-type: circle; list-style-position: inside; margin-bottom:20px;}
 .image img {width:100%; max-width: 300px;}
 
 /* skills */
-.section#skills {padding-top: 50px;}
+.section#skills {padding-top: 25px;}
 .skillSet {display: block;}
 .skillItem {
 	width: 100%;
