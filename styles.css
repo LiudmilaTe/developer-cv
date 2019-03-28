@@ -27,6 +27,7 @@ h2 {
 	margin-bottom: 40px;
 	text-align:center;
 }
+h2.inner {margin-top: 40px;}
 h3 {
 	font-size: 30px;
 	margin-bottom: 20px;
