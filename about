@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en" class="page_home">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+		<title>Liudmila Te - Email developer, Marketing Automation</title>
+		<meta name="description" content="Experienced developer with 7 years history of working in B2B and B2C companies">
+
+		<link rel="apple-touch-icon" sizes="180x180" href="">
+		<link rel="icon" type="image/png" sizes="32x32" href="">
+		<link rel="icon" type="image/png" sizes="16x16" href="">
+		<link rel="manifest" href="">
+		<link rel="mask-icon" href="" color="">
+		<meta name="theme-color" content="#ffffff">
+		
+		<link href="https://fonts.googleapis.com/css?family=Barlow:400,500,600" rel="stylesheet"> 
+		<link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
+	</head>
+
+	<body>
+		<div id="main">
+
+			<!-- Menu block -->
+			<section class="section" id="menu">
+				<nav class="nav">
+					<ul style="transition: transform 0.3s ease 0s;">
+						<li class="li"><a href="#about" title="About">About</a></li>
+						<li class="li"><a href="#skills" title="Skills">Skills</a></li>
+						<li class="li"><a href="#projects" title="Projects">Projects</a></li>
+						<li class="li"><a href="#contact" title="Contact">Contacts</a></li>
+					</ul>
+				</nav>
+			</section>
+			
+			<section class="section" id="header">
+				<div class="content">
+					<div class="head">
+						<h1>Liudmila Te</h1>
+						<p>Email developer and Marketing automation specialist</p>
+					</div>
+				</div>
+			</section>
+			
+			<section class="section" id="about">
+				<div class="content">
+					<div class="aboutMe">
+							<h2>About me</h2>
+            
+              <p>Being a very passionate and self-driven person, I always try to find different projects and ideas to learn something new and gain an experience.</p>
+              <p>This leads me to my profession in web. First, I made a simple Landing pages, websites and emails for different companies.</p>
+              <p>Several years later I found out that email development excites me the most and I love fixing Outlook bugs, testing new style updates and make great responsive emails.</p>
+
+              <div class="image">
+							  <img src="images/my.jpg" alt="My photo" />
+						  </div>
+              <div class="description">
+              <p>As one of my true passion is planning, including creating and automating processes and workflow, I was extremely happy about my promotion to Team Lead.</p>
+              <p>That was time full of big discoveries and huge mistakes, but I was sure I can do it. And I did it! I grew a wonderfull team, who wasn't afraid to make mistakes and share their expertise and thoughts. Team who helped me learn how to delegate and trust. Team that became a family.</p>
+              <p>As a result of 3.5 years of my team lead responsibilities I implemented several significant changes: </p>
+              </div>
+              
+              <ul>
+                <li>Biult work processes with designers, marketing and field management teams</li>
+                <li>Coached HTML remote team in Bucharest office</li>
+                <li>Implemented Jira, Confluence documentation, deadline guides, code review and monthly meetings to share experience</li>
+                <li>Dramatically decreased amount of tasks for HTML team, by organising HTML and CSS courses for marketing to solve simple tasks by their own</li>
+                <li>Implemented Marketo automatization and email scripting to ease Nurturing tracks management</li>
+              </ul>
+
+              <p>But it was time to move on and I decided to try myself in startup bank company</p>
+              <p>Here I need to do much more out of my responsibilities and skill set, so I start training a new skill set for marketing automation, email campaigns and email marketing planning</p>
+              <p>Now I'm the only person responsible for Email Marketing full circle: 
+              <ul>
+                <li>Content creation, discovering new ideas for future content</li>
+                <li>Communication and nurturing planning</li>
+                <li>Creating email templates</li>
+                <li>Managing and running Marketo triggers and batches</li>
+              </ul>
+           </div>
+				</div>
+			</section>
+
+
+			<!-- Footer -->
+			<section class="section" id="footer">
+				<div class="content">
+					<p>Designed and made by Liudmila Te</p>
+					<p>Copyright ©2019 Liudmila Te</p>
+				</div>
+			</section>
+
+		</div>
+
+
+	</body>
+
+</html>
