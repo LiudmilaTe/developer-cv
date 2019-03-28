@@ -77,7 +77,7 @@ ul {list-style-type: circle; list-style-position: inside; margin-bottom:20px;}
 .image {
 	display: block; 
 	width:100%;
-	max-width:340px;
+	max-width:300px;
 	margin-bottom: 40px;
 }
 .image img {width:100%; max-width: 300px;}
