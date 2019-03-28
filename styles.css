@@ -47,7 +47,7 @@ ul {list-style-type: circle; list-style-position: inside; margin-bottom:20px;}
 	align-items: stretch;
 	justify-content: flex-end;
 }
-.nav ul {list-style-type: none;}
+.nav ul {list-style-type: none;margin-bottom:0;}
 .nav li.li {
 	font-size: 16px;
 	line-height: 1.5em;
@@ -55,6 +55,7 @@ ul {list-style-type: circle; list-style-position: inside; margin-bottom:20px;}
 	padding-right: 14px;
 	font-weight: bold;
 }
+
 /* header */
 #header {
 	background-color: #004E7F;
