@@ -162,6 +162,7 @@ ul {list-style-type: circle; list-style-position: inside; margin-bottom:20px;}
 
 
 /* about page */
+.image.about {padding-top:8px;}
 .image-block {text-align:center;}
 .image-block img {margin-bottom: 20px; width:100%; max-width: 200px;}
 
