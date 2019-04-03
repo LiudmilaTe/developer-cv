@@ -14,8 +14,8 @@ h3 {font-size: 30px; margin-bottom: 20px;}
 p {margin-bottom: 20px;}
 a {color: #004E7F; text-decoration:none; font-weight: bold;}
 a:hover {color: #009BFF;}
-ul {list-style-type: circle; list-style-position: inside; margin-bottom: 20px; padding-left: 20px;}
-ul li {margin-bottom:20px;}
+ul {list-style-type: circle; list-style-position: inside; margin-bottom: 10px; padding-left: 20px;}
+ul li {margin-bottom:40px;}
 ul li:last-child {margin-bottom: 0;} 
 .right {text-align:right;}
 .center {text-align:center;}
