@@ -1,12 +1,12 @@
-/* main styles */
+    
+/* ------------------------- COMMON STYLES  -------------------------*/
 * {margin:0;padding:0;-webkit-box-sizing:border-box;box-sizing:border-box;outline:0}
 html, body {font-family: 'Barlow', sans-serif; font-weight:400; font-size: 20px; line-height: 1.5em; color:#000000; text-align:left; -webkit-text-size-adjust:auto;
 width:100%; min-height:100%; min-width:320px; background:#ffffff;}
 .section {padding: 100px 40px;}
-.content {max-width:900px; margin: 0 auto;}
+.content {max-width: 900px; margin: 0 auto;}
 
 /*typography */
-
 h1 {font-size: 50px; line-height: 60px; font-weight: 300; margin-bottom: 20px;}
 h2 {font-size: 40px; margin-bottom: 40px; text-align:center;}
 h2.inner {margin-top: 60px;}
@@ -15,19 +15,28 @@ p {margin-bottom: 20px;}
 a {color: #004E7F; text-decoration:none; font-weight: bold;}
 a:hover {color: #009BFF;}
 ul {list-style-type: circle; list-style-position: inside; margin-bottom:20px;}
+ul li {margin-bottom:20px;}
+ul li:last-child {margin-bottom: 0;} 
 .right {text-align:right;}
-
+.center {text-align:center;}
 
 /* menu */
 .section#menu {padding:10px 40px;}
 .nav {display: flex; align-items: stretch; justify-content: flex-end;}
-.nav ul {list-style-type: none;margin-bottom:0;}
+.nav ul {list-style-type: none; margin-bottom:0;}
 .nav li.li {font-size: 16px; line-height: 1.5em; font-weight: bold; display:inline-block; padding-right: 14px;}
 
 /* header */
-#header {background-color: #004E7F; color:#ffffff; text-align:center;}
+#header {background-color: #004E7F; color: #ffffff; text-align: center;}
 .head p {font-size:22px; margin:0;}
 #header .content {display: flex; justify-content: center;}
+
+/*footer */
+.section#footer {font-size:12px; line-height: 18px; text-align:right; color:#ffffff; padding: 20px 40px; background-color: #004E7F;}
+#footer p {margin-bottom:0;}
+
+
+/* ------------------------- MAIN PAGE ------------------------- */
 
 /* about */
 .aboutMe {display: block;}
@@ -37,9 +46,7 @@ ul {list-style-type: circle; list-style-position: inside; margin-bottom:20px;}
 
 /* skills */
 .section#skills {padding-top: 25px;}
-.skillSet {display: block;}
-.skillItem {width: 100%; padding: 20px; margin:0; margin-bottom: 40px; background-color: #ffffff; box-shadow: 1px 3px 30px #004E7F;}
-.skillList li {margin-bottom:20px;}
+.skillItem {padding: 40px; margin:0; margin-bottom: 40px; background-color: #ffffff; box-shadow: 1px 3px 6px #004E7F;}
 
 /*projects */
 #projects {background: #004E7F;}
@@ -89,41 +96,27 @@ ul {list-style-type: circle; list-style-position: inside; margin-bottom:20px;}
 }
 .projItem img {max-height: 200px; width:auto;}
 
+/* contact block */
 #contact {background-color: #ffffff; text-align:center;}
-.links {display: flex; align-items: stretch; justify-content: center; margin-top:20px;}
+.links {margin-top:20px;}
 .links a:first-child {margin-right: 40px;}
 
-.section#footer {font-size:12px; line-height: 18px; text-align:right; color:#ffffff; padding: 20px 40px; background-color: #004E7F;}
-#footer p {margin-bottom:0;}
-
 @media (min-width: 768px) {
-	.nav li.li {
-		padding-right: 25px;
-		font-size: 20px;
-	}
-	.aboutMe {
-		display: flex;
-		align-items: stretch;
-		justify-content: space-between;
-	}
+	.nav li.li {padding-right: 25px;font-size: 20px;}
+	.aboutMe, .LandingProjects, .emailProjects {display: flex; align-items: stretch; justify-content: space-between;}
 	.image {margin-right: 40px;}
 	.projItem {max-width: calc(33% - 20px);}
-	.LandingProjects, .emailProjects{
-		display: flex;
-		align-items: stretch;
-		justify-content: space-between;
-	}
-	
-	
 }
 
 
-/* about page */
+/* ------------------------- ABOUT PAGE ------------------------- */
 .image.about {padding-top:8px;}
 .image-block {text-align:center;}
 .image-block img {margin-bottom: 20px; width:100%; max-width: 200px; max-height: 200px;}
 
 @media (min-width: 768px) {
-	/* about page */
 	.image-block {display: flex; align-items: stretch; justify-content: space-between;}
 }
+
+
+/* PROJECTS PAGE */
