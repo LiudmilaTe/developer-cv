@@ -119,4 +119,7 @@ ul li:last-child {margin-bottom: 0;}
 }
 
 
-/* PROJECTS PAGE */
+/* WORKS HISTORY PAGE */
+.company {padding: 40px; border-bottom: 2px solid #004E7F; margin-bottom: 40px;}
+.date {font-size:12px; line-height: 18px; color: #004E7F; margin:0;}
+
