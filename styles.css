@@ -135,6 +135,6 @@ ul li:last-child {margin-bottom: 0;}
 
 @media (min-width: 768px) {
 	.veeamTeam {display: flex; align-items: stretch; justify-content: space-between;}
-	.image.team {margin-left: 40px;}
+	.image.team {margin-left: 40px; margin-right: 0;}
 }
 
