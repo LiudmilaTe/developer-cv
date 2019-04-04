@@ -130,10 +130,11 @@ ul li:last-child {margin-bottom: 0;}
 .company {margin:0;}
 .date {font-size:14px; line-height: 18px; color: #004E7F;}
 .veeamTeam {display:block;}
-.image.team {display: block; width:100%; max-width:200px; margin-bottom: 40px;}
-.image.team img {width:100%; max-width: 200px;}
+.image.team {display: block; width:100%; max-width:250px; margin-bottom: 40px;}
+.image.team img {width:100%; max-width: 250px;}
 
 @media (min-width: 768px) {
 	.veeamTeam {display: flex; align-items: stretch; justify-content: space-between;}
+	.image.team {margin-left: 40px;}
 }
 
