@@ -22,7 +22,7 @@ ul li:last-child {margin-bottom: 0;}
 
 /* menu */
 .section#menu {padding:10px 40px;}
-.nav {display: flex; align-items: stretch; justify-content: flex-end;}
+.nav {/*display: flex; align-items: stretch; justify-content: flex-end;*/ text-align:center;}
 .nav ul {list-style-type: none; margin-bottom:0;}
 .nav li.li {font-size: 16px; line-height: 1.5em; font-weight: bold; display:inline-block; padding-right: 14px;}
 
@@ -102,6 +102,7 @@ ul li:last-child {margin-bottom: 0;}
 .links a:first-child {margin-right: 40px;}
 
 @media (min-width: 768px) {
+	.nav {text-align:right}
 	.nav li.li {padding-right: 25px;font-size: 20px;}
 	.aboutMe, .LandingProjects, .emailProjects {display: flex; align-items: stretch; justify-content: space-between;}
 	.image {margin-right: 40px;}
