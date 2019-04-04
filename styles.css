@@ -120,7 +120,7 @@ ul li:last-child {margin-bottom: 0;}
 
 
 /* WORKS HISTORY PAGE */
-.jobItem {padding: 40px; border-bottom: 2px solid #004E7F; margin-bottom: 40px;}
+.jobItem {padding: 40px 20px; border-bottom: 2px solid #004E7F; margin-bottom: 40px;}
 .jobItem:last-child {border-bottom:0; margin-bottom:0;}
 .company {margin:0;}
 .date {font-size:12px; line-height: 18px; color: #004E7F;}
