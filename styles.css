@@ -121,11 +121,17 @@ ul li:last-child {margin-bottom: 0;}
 
 
 /* WORKS HISTORY PAGE */
+.button {width:100%; max-width: 280px; margin: 0 auto;margin-top: 80px; margin-bottom: 20px; text-align:center;}
+.button a {background: #ffffff; padding:20px 40px; color: #004E7F; border-radius: 10px;}
 .jobList {padding-top:20px;}
 .jobItem {padding: 40px 0px; border-bottom: 2px solid #004E7F; margin-bottom: 40px;}
 .jobItem:last-child {border-bottom:0; margin-bottom:0; padding-bottom:0;}
 .jobItem h3 {margin-bottom:10px;}
 .company {margin:0;}
 .date {font-size:14px; line-height: 18px; color: #004E7F;}
-.button {width:100%; max-width: 280px; margin: 0 auto;margin-top: 80px; margin-bottom: 20px; text-align:center;}
-.button a {background: #ffffff; padding:20px 40px; color: #004E7F; border-radius: 10px;}
+.veeamTeam {display:block;}
+
+@media (min-width: 768px) {
+	.veeamTeam {display: flex; align-items: stretch; justify-content: space-between;}
+}
+
