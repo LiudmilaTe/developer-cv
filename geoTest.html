@@ -1,0 +1,49 @@
+<html>
+  <head>
+    <title>
+      Geo test
+    </title>
+  </head>
+
+  <body onLoad="geoLocation()">
+    <div>
+      <p id="coords" style="color: red;"></p>
+      <p id="browser" style="border: 1px solid green; padding: 5px;"></p>
+    </div>
+
+    <script>
+      function geoLocation() {
+        const coords = document.getElementById("coords");
+
+        function success(position) {
+          const latitude = position.coords.latitude;
+          const longitude = position.coords.longitude;
+        }
+        coords.innerHTML = "Geo position to be";
+        coords.innerHTML = `Latitude: ${latitude}°, Longitude: ${longitude}°`;
+
+        function error() {
+          coords.innerHTML = "Unable to retrieve your location";
+        }
+
+        if (!navigator.geolocation) {
+          coords.innerHTML = "Geolocation is not supported by your browser";
+        } else {
+          coords.innerHTML = "Locating…";
+          navigator.geolocation.getCurrentPosition(success, error);
+        }
+      }
+
+      // navigator
+      const DeviceInfo =
+        "OS - " +
+        navigator.platform +
+        ". Browser: " +
+        navigator.userAgent +
+        ". Cookies enabled:  " +
+        navigator.cookieEnabled;
+
+      document.getElementById("browser").innerHTML = DeviceInfo;
+    </script>
+  </body>
+</html>
